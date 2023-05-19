@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - Barbería</title>
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="img/image.png" alt="logo de la barbería"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nombreyapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreyapellido" class="input-padre" required>
+
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" class="input-padre" required
+                placeholder="correo@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padre" required
+                placeholder="(xxx) xxx-xxxx">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padre" required></textarea>
+
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-llamada"><input type="radio" name="contacto" value="llamada" id="radio-llamada">Llamada</label>
+                    
+                    <label for="radio-wpp"><input type="radio" name="contacto" value="whatsapp" id="radio-wpp" checked>WhatsApp</label>
+                    
+                </fieldset>
+
+                <div>
+                    <p>¿En qué horario prefiere ser atendido?</p>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </div>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de nuestras promociones?</label>
+
+                <input type="submit" name="enviar" id="enviar" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes a sábado</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Domingos y festivos</td>
+                        <td>10h - 17h</td>
+                    </tr>
+                </tbody>
+                               
+            </table>
+        </main>
+
+        <footer>
+            <img src="img/image.png" alt="logo de la barbería">
+            <p class="Hecho_por">Hecho por Eddie Ruiz - 2023</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+.titulo_ppal{
+    padding-left: 30px;
+}
+
+header{
+    background-color: black;
+    padding: 20px 0;
+}
+
+#banner{
+    width: 100%;
+}
+
+.div_ppal{
+    background: #E4DCCF;
+    padding: 20px;
+}
+
+.titulo_centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    background: #E4DCCF;
+}
+
+em strong{
+    color: crimson;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferencias{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.img_diferencias{
+    width: 10%;
+}
+
+footer{
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
